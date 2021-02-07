@@ -2,26 +2,29 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Josh Stephens', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Off by one bit', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Josh Stephens',
+  subtitle: 'I am a mega nerd who loves software development, electronics and woodworking.',
+  cta: "Let's build together",
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'js_profile.jpg',
+  paragraphOne:
+    'Hello and thank you for checking out my profile. I am a Systems Architect turned software developer.',
+  paragraphTwo:
+    'From frontend to the backend, Vue or React, python or nodejs I would love to help you build your dream. ',
+  paragraphThree:
+    'When not working or perfecting my coding skills you can find me either in my workshop building, out in the woods on my four wheeler or hanging out with my family.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -58,8 +61,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: "Let's build",
+  email: 'me@joshstephens.io',
 };
 
 // FOOTER DATA
@@ -67,28 +70,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/bsdtux',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/josh-stephens-05625414/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/bsdtux',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
